@@ -1,10 +1,11 @@
 #!/usr/bin/python
 import os
+import random
 
 def main():
     print "Welcome to guess the number\n==========================="
 
-    num = 42
+    num = random.random()*100 // 1
     guess = ""
 
     while guess != num:
