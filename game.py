@@ -3,8 +3,17 @@ import os
 import random
 
 def main():
-    print "Welcome to guess the number\n==========================="
-    print "\nI'm thinking of a number, you have to guess what it is.\n"
+    print "Welcome to guess the number game\n==========================="
+    print """
+    Instructions:
+    ------------
+    1) Guess a number between 0 to 100.
+    2) The game tells you how close you are to the guess.
+    3) It would also tell you whether you have guess higher
+       or lower than the previous guess.
+    4) Continue until you guess it right!
+    And you win... :-) Kudos!
+    """
 
     num = random.random()*100 // 1
     guess = ""
