@@ -3,6 +3,7 @@ import os
 
 def main():
     print "Welcome to guess the number\n==========================="
+    print "\nI'm thinking of a number, you have to guess what it is.\n"
 
     num = 42
     guess = ""
@@ -13,6 +14,6 @@ def main():
             print "Guess higher next time\n"
         elif guess > num:
             print "Guess lower next time\n"
-    print "CONGRATULATIONS!"
+    print "Voila! You got it!\nNow you know the deep secrets of life, universe and everything...\n"
 
 main()
