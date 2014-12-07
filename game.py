@@ -17,7 +17,7 @@ def main():
 
     play_again = 'y'
     while play_again == 'y':
-        num = random.random()*100 // 1
+        num = random.randint(0, 100)
         guess = ""
 
         while guess != num:
